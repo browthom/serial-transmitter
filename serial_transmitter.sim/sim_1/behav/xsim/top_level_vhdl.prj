@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../VHDL Custom Module Directory/anode_selector.vhd" \
+"../../../../../VHDL Custom Module Directory/bcd_to_seven_segment_decoder.vhd" \
+"../../../../../VHDL Custom Module Directory/buffer_8_bit.vhd" \
+"../../../../../VHDL Custom Module Directory/multiplexer_8_bit_4_to_1.vhd" \
+"../../../../../VHDL Custom Module Directory/multiplexer_seven_segment_display.vhd" \
+"../../../../../VHDL Custom Module Directory/release_debouncer.vhd" \
+"../../../../../VHDL Custom Module Directory/serial_transmit.vhd" \
+"../../../../../VHDL Custom Module Directory/two_bit_counter.vhd" \
+"../../../../../VHDL Custom Module Directory/var_clock_divider_2.vhd" \
+"../../../../serial_transmitter.srcs/sources_1/new/top_level.vhd" \
+
+# Do not sort compile order
+nosort

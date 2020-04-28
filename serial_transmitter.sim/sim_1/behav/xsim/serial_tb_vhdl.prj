@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../VHDL Custom Module Directory/serial_transmit.vhd" \
+"../../../../serial_transmitter.srcs/sim_1/new/serial_tb.vhd" \
+
+# Do not sort compile order
+nosort
